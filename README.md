@@ -6,7 +6,7 @@ In this project, we will install Claude Code, learn its safety modes and prompti
 
 ## What we'll Build
 We'll go from never having opened a terminal to confidently using Claude Code as our personal AI assistant for file management, organization, and automation.
-![alt images](Architecture_Claude_Code_managing_files.png)
+![alt images]()
 
 ## By the end of this project, you'll have:
 - A working `Claude Code installation`, fully authenticated and ready to use.
@@ -50,7 +50,7 @@ You have launched Claude Code before, so it skips the login and first-time setup
 ### Choose a theme
 The first prompt asks which colour theme to display in your terminal.
 - Use the arrow keys to highlight Dark mode (or whichever you prefer) and press Enter. You can change this later with the /theme command.
-![alt images](Theme-Output.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/Theme-Output.png)
 
 ### Login to Claude Code
 Claude Code shows a welcome screen and asks you to select a login method.
@@ -58,12 +58,12 @@ Claude Code shows a welcome screen and asks you to select a login method.
 - Your browser opens automatically for you to log in. If it does not open, copy the URL shown in the terminal and paste it into your browser.
 - Log in with the same Claude account you used for your subscription.
 - Once authenticated, return to your terminal and you'll see a "Login Successful" message.
-![alt images](terminal_login_successfull.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/terminal_login_successfull.png)
 
 ### Trust the folder and complete setup
 After authenticating, Claude Code asks whether you trust the folder it is running in. This prompt appears every time you open Claude Code in a new folder, not just the first time.
 - Use the arrow keys to highlight `Yes, I trust this folder` and press `Enter`.
-![alt images](trust-folder-message.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/trust-folder-message.png)
 
 ## Why does Claude ask about folder trust?
 Claude Code can read and modify files inside the folder it runs in. The trust prompt ensures you never accidentally give it access to a folder you did not intend. You will see this prompt once per new folder.
@@ -71,7 +71,7 @@ Claude Code can read and modify files inside the folder it runs in. The trust pr
 - Type hello, `what can you do?` and press `Enter` to confirm Claude Code is responding.
 
 Claude Code should reply with a summary of its capabilities. You now have a working AI assistant in your terminal.
-![alt images](claude-code-confirmation-working-successfully.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/claude-code-confirmation-working-successfully.png)
 
 ### Not seeing the welcome screen?
 - Make sure you completed the browser login step. Check your browser for any open Claude authentication tabs.  
@@ -86,7 +86,7 @@ Claude Code can use different AI models behind the scenes. The model you get by 
 /model
 ```
 A picker appears showing your current model highlighted. Press `Escape` to close it without changing anything.
-![alt images](current-AI-model.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/current-AI-model.png)
 
 ### When should I use each model?
 Each model trades off between speed, capability, and how much of your subscription allowance it uses per response.
@@ -117,7 +117,7 @@ Before organizing anything, we want to understand what is in there. We will ask 
 Look at my Downloads folder and tell me: how many files are there, what types of files do you see, and what is the oldest file?
 ```
 
-![alt images](Downloads-folder-summary.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/Downloads-folder-summary.png)
 
 - If Claude Code shows a Permissions dialog listing the command it wants to run, press `Enter` to approve it.
 
@@ -134,7 +134,7 @@ Now that we know what is in there, We'll tell Claude how we want it organized an
 My Downloads folder is a mess. Can you organize it into subfolders by file type? Show me your plan before you move anything.
 ```
 
-![alt images](organize-plan-for-subfolder.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/organize-plan-for-subfolder.png)
 
 ### Why ask Claude to show its plan first?
 Including `show me your plan first` in your prompt forces Claude to stop and explain before acting. You get to see exactly how many files will move and where they will go. This is a habit worth building: as best practice ALWAYS ask Claude to show its work before making changes.
@@ -143,7 +143,7 @@ Including `show me your plan first` in your prompt forces Claude to stop and exp
 - If the plan looks good, type `yes` and press `Enter` to approve. In my case since I have sensitive files, I selected 4 and typed `Move all these files into a new Sensitive/ subfolder so they're easy to find`
 - Claude starts moving files. It asks permission for each mv (move) command. Approve each one by pressing Enter.  
 
-![alt images](moved-files-to-subfolders.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/moved-files-to-subfolders.png)
 
 ### Too many permission prompts?
 If Claude asks permission for every single file move and you are tired of pressing `Enter`, look for the option that says `Always approve mv` or similar. Selecting it lets Claude run all `mv` commands for the rest of this session without asking each time.
@@ -168,7 +168,7 @@ Claude reports a summary when it finishes. But you should always verify with you
 - Open each subfolder and spot-check that the right files landed in the right places.
 - Back in Claude Code, type `/cost` and press `Enter` to see how many tokens that task used.
 
-![alt images](costs.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/costs.png)
 
 ### Files ended up in the wrong folder?
 No problem. This is normal. Just ask Claude to fix it. For example: `Move the PDFs from Misc into Documents` Claude remembers what it did and can correct individual files without re-running the whole organization.
@@ -233,7 +233,7 @@ I want to reorganize my Projects/. What's your plan?
 
 When I checked Claude's response, as you can see it already reflect our preferences (showing a plan first, asking before deleting, using our preferred organization style) without us having to remind Claude.
 
-![alt images](plan-to-reorg-projects-dir.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/plan-to-reorg-projects-dir.png)
 
 
 ### What should you see?
@@ -282,22 +282,22 @@ Large files over 100MB that haven't been touched in 6 months are often installer
 
 ### Review Claude's findings before saving
 The prompt asks Claude to show us the report before writing it to disk. This is our chance to refine.
-- I'll review the report Claude shows me and check that it includes all five sections: duplicates found, large forgotten files, empty folders, total reclaimable space, and recommended actions.
-![alt images](storage-audit-report.png)
+- I'll review the report Claude shows me and check that it includes all five sections: duplicates found, large forgotten files, empty folders, total reclaimable space, and recommended actions. see storage-audit.md file.
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/storage-audit-report.png)
 
 
 If something is missing or you want more detail, use Pattern 3 (build on results) to refine. For example:
 ```bash
 That's good, but also sort the duplicates by size so I know which ones free up the most space first.
 ```
-![alt images](duplicate-by-size-report.png)
+![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/6ad7ca233662012ab998276df173f8a6e5806689/Images/duplicate-by-size-report.png)
 
 
 - Once the report looks complete, switch to Normal Mode by pressing Shift+Tab to cycle back.
 - Approve Claude's action when it asks to save the report file to your Desktop.
 - Verify the file exists by asking Claude:
 ```bash
-Confirm that storage-audit.md was saved to my Desktop. Show me the first 10 lines.
+Confirm that storage-audit.md was saved to my current directory. Show me the first 10 lines.
 ```
 
 ### Save the workflow as a reusable command
@@ -313,8 +313,15 @@ Yes. Save the initial workflow (from where I told you to "scan..") as a custom c
 Save this entire workflow as a custom command called 'audit' that I can run monthly.
 ```
 
-This will be saved in the current folder under `.claude/commands/audit.md`
-![alt images](audit-workflow-saved-path.png)
+This will be saved in the current folder under `.claude/commands/audit.md` you can view the `audit.md` file there.
+
+
+To use `/audit` from any folder, copy the file to `~/.claude/commands/audit.md`. 
+You need `commands/` first. Claude Code doesn't make `~/.claude/commands/` for you; it only reads the folder if it exists. You can create the folder and copy the command into it in one step:
+```bash
+mkdir -p ~/.claude/commands
+cp ~/your-project-directory/.claude/commands/audit.md ~/.claude/commands/
+```
 
 Reset your conversation by running this command:
 ```bash
