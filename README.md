@@ -5,7 +5,8 @@ Claude Code is an AI assistant that lives in your terminal. You type plain Engli
 In this project, we will install Claude Code, learn its safety modes and prompting patterns, and use it to organize real files on my computer. By the end, we'll have a working setup of Claude Code, a personalized preferences file, and reusable commands you can run anytime.
 
 ## What We'll Build
-We'll go from never having opened a terminal to confidently using Claude Code as our personal AI assistant for file management, organization, and automation.
+We'll go from never having opened a terminal to confidently using Claude Code as our personal AI assistant for file management, organization, and automation.  
+
 ![alt images](https://github.com/CoyApilado18/Get-Started-with-Claude/blob/eff06a5aaeadd2d08fabd6f0ba7f88a21bae9ce5/Images/Architecture_Claude_Code_managing_files.png)
 
 ## By the end of this project, you'll have:
@@ -333,3 +334,5 @@ Test your saved command by running:
 /audit
 ```
 
+-- END --  
+-- Enjoy -- 
